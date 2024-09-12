@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Linotype Univers Bold";
+  src: url("public/Linotype Univers Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Linotype Univers Regular";
+  src: url("public/Linotype Univers Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Linotype Univers Light";
+  src: url("public/Linotype Univers Light.ttf") format("truetype");
+}
+
+* {
+  font-family: "Linotype Univers Light";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: white;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 0 2.5px; */
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+body,
+canvas {
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100dvh;
+  background-color: blue;
+}
